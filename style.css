@@ -1,0 +1,46 @@
+.carrossel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+    margin-top: 8%;
+    background-image: url("PlanodeFundoCats.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+  }
+  
+  .slide {
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide img {
+
+        max-width: 100%;
+        max-height: 400px; /* Altura máxima de 400 pixels */
+        height: auto;
+      
+      
+  }
+  body {
+    background-image: url("PlanodeFundoCats.jpeg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+  }
+  
+  
+  
+  
+  
+  
+  
